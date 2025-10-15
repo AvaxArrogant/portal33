@@ -1,1 +1,0 @@
-import Container from '@/components/Container'; export default function Page(){return (<Container><h1 className='text-2xl font-extrabold mt-6'>Dashboard</h1><p className='hint mt-2'>Overview</p></Container>);}
