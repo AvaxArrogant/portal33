@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 1.25rem; }
+html,body{height:100%;}
+body{@apply bg-ink-50 text-ink-900 antialiased;}
+.container-pad{@apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;}
+.card{@apply rounded-2xl bg-white shadow-soft border border-ink-100;}
+.hint{@apply text-sm text-ink-500;}
+.field{@apply w-full rounded-xl border border-ink-200 bg-white px-4 py-3 outline-none focus:ring-2 focus:ring-gold-300;}
+.btn{@apply inline-flex items-center justify-center rounded-xl px-4 py-3 font-medium;}
+.btn-gold{@apply text-ink-900 bg-gold-500 hover:bg-gold-600;}
+.btn-outline{@apply border border-ink-200 bg-white hover:bg-ink-100;}
+.pill{@apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;}
+.section-title{@apply flex items-center gap-2 text-lg font-semibold mb-4;}

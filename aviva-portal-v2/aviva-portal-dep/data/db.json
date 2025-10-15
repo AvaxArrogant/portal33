@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "u_romannikolas77@gmail.com",
+      "email": "romannikolas77@gmail.com",
+      "name": "Nicolas Roman",
+      "role": "customer"
+    },
+    {
+      "id": "u_sub",
+      "email": "subadmin@example.com",
+      "name": "Bala Loaded",
+      "role": "subadmin"
+    },
+    {
+      "id": "u_admin",
+      "email": "admin@example.com",
+      "name": "Root Admin",
+      "role": "admin"
+    }
+  ],
+  "policies": [
+    {
+      "id": "pol_392815",
+      "number": "POL-392815",
+      "status": "expired",
+      "vehicle": {
+        "makeModel": "MERCEDES\u2013BENZ AMG C 43 4MATIC PREMIUM",
+        "year": 2017,
+        "color": "White"
+      },
+      "premiumGBP": 116.78,
+      "startDate": "2025-07-24",
+      "endDate": "2025-07-25",
+      "specs": {
+        "topSpeedMph": 155,
+        "powerBhp": 362,
+        "gearbox": "9 speed automatic"
+      },
+      "engine": {
+        "capacityCc": 2996,
+        "cylinders": 6,
+        "fuelType": "Petrol",
+        "consumption": "35.3L/100km"
+      },
+      "mot": {
+        "expiry": "2026-05-14",
+        "taxValidUntil": "2026-07-01"
+      },
+      "covers": [
+        "Comprehensive Cover",
+        "Personal Accident Cover",
+        "Third Party Cover",
+        "Fire & Theft Protection"
+      ],
+      "addons": [
+        "Motor Legal Protection",
+        "Breakdown Cover"
+      ],
+      "customerId": "u_romannikolas77@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "aviva-portal-clone-v2",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test:user": "node ./scripts/test-create-user.mjs",
+    "test:policy": "node ./scripts/test-create-policy.mjs",
+    "fix:schema": "node ./scripts/add-columns.mjs",
+    "fix:schema:direct": "node ./scripts/direct-sql-fix.mjs"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.54.0",
+    "@types/next": "^8.0.7",
+    "@types/react-datepicker": "^6.2.0",
+    "cookie": "^0.6.0",
+    "dotenv": "^16.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.5",
+    "next-pwa": "^5.6.0",
+    "node": "^22.18.0",
+    "pdf-lib": "^1.17.1",
+    "react": "18.3.1",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "18.3.1",
+    "react-select": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.19.10",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-select": "^5.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
